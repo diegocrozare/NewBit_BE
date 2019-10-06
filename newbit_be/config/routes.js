@@ -21,9 +21,8 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
 
-  '/news': 'MainNewsController.news',
-  '/searchNews/:idNews': 'MainNewsController.searchNews',
-  '/created': 'MainNewsController.created'
+  '/news': 'MainNewsController.news',
+
 
   /***************************************************************************
   *                                                                          *
