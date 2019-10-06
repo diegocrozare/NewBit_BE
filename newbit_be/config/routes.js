@@ -23,6 +23,8 @@ module.exports.routes = {
 
   '/news': 'MainNewsController.news',
 
+  '/searchNews/:idNews': 'MainNewsController.searchNews'
+
 
   /***************************************************************************
   *                                                                          *
